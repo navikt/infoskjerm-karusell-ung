@@ -21,3 +21,7 @@ infoskjermer:
       # - "https://media.snl.no/media/185807/standard_pride-flagg.png"
       - "https://mon.ruter.no/departures/59.912673-10.801052"
       - "https://metabase.ansatt.nav.no/public/dashboard/8b80d7e8-c93a-432d-a6b7-de2163d8bc24?enhet=1+-+Landet&tab=1379-ug-og-arbeid&tidsperiode=2023-05-31~"
+      - "https://metabase.ansatt.nav.no/public/dashboard/680ef6da-b1ca-441d-834f-0e47c8a20229?enhet=Landet&enheter=Landet&m%25C3%25A5lgrupper=Ungdomsgaranti&niv%25C3%25A5=Landet&periodetype=Kvartal&region=Landet&tab=290-forside&tiltak=Tiltak+-+Oppf%C3%B8lgingstiltaket&tiltak2=Tiltak+-+Arbeid+med+st%C3%B8tte&utfall=atid3"
+      - "https://data.ansatt.nav.no/quarto/a191ebb5-1c8d-4d42-ac01-6740c3425c86/index.html"
+      - "https://data.ansatt.nav.no/quarto/a191ebb5-1c8d-4d42-ac01-6740c3425c86/02_resultater.html#kumulativ-utvikling"
+      - "https://data.ansatt.nav.no/quarto/a191ebb5-1c8d-4d42-ac01-6740c3425c86/04_arbeidsgivere.html#workops-uten-arbeidsgiverdata"
