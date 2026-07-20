@@ -6,7 +6,7 @@
 infoskjermer:
   # standard-verdier
   standard:
-    browser: "chromium-browser"
+    browser: "chromium-browser" # eller feks firefox
     fanetid: 30
     vis_standardnettsider: True
     nettsider:
@@ -16,7 +16,7 @@ infoskjermer:
   ung:
     fanetid: 60
     vis_standardnettsider: False
-    browser: "firefox"
+    browser: "chromium-browser"
     nettsider:
       # - "https://media.snl.no/media/185807/standard_pride-flagg.png"
       - "https://mon.ruter.no/departures/59.912673-10.801052"
