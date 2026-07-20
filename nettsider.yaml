@@ -11,113 +11,13 @@ infoskjermer:
     vis_standardnettsider: True
     nettsider:
       - "https://media.snl.no/media/185807/standard_pride-flagg.png"
-      - "https://data.ansatt.nav.no/quarto/3c7de1ff-2a5b-4a0b-91f8-d2e68a60bb0d/infoskjerm-i-A6-plott.html#pesysytelser"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#ukas-oppmerksomhet"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#ukas-oppmerksomhet-2"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#prioriteringer"
-      - "https://data.ansatt.nav.no/quarto/d1e4cefc-2658-4519-a8c0-0f29db301d9d/uforemottakere.html#aldersgrupper"
 
   # team Uføre sin infoskjerm
-  uføre:
+  ung:
     fanetid: 60
     vis_standardnettsider: False
     browser: "firefox"
     nettsider:
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#fun"
-      - "https://data.ansatt.nav.no/quarto/3c7de1ff-2a5b-4a0b-91f8-d2e68a60bb0d/infoskjerm-i-A6-plott.html#uføre"
-      - "https://metabase.ansatt.nav.no/dashboard/1027?&tab=1159-infoskjermtall"
-      - "https://metabase.ansatt.nav.no/public/dashboard/5f8908a8-1448-4993-be8e-1ddb0dbc1068?tab=1245-diagnosekoder-i-pesys"
-      # - "https://data.ansatt.nav.no/quarto/d1e4cefc-2658-4519-a8c0-0f29db301d9d/uforemottakere.html#tilgang-og-avgang"
-      # - "https://data.ansatt.nav.no/quarto/d1e4cefc-2658-4519-a8c0-0f29db301d9d/uforemottakere.html#aldersgrupper"
-      # - "https://metabase.ansatt.nav.no/public/dashboard/fe4fae92-28b3-4ccc-9376-1ed38fff7d0a?%25C3%25A5r=2026&brevtype=&m%25C3%25A5ned=&tab=381-infoskjerm1"
-      - "https://metabase.ansatt.nav.no/public/dashboard/5f8908a8-1448-4993-be8e-1ddb0dbc1068?tab=379-mottakere"
-      # - "https://metabase.ansatt.nav.no/public/dashboard/5f8908a8-1448-4993-be8e-1ddb0dbc1068?tab=411-dashbordtall"
-      # - "https://metabase.ansatt.nav.no/public/dashboard/fe4fae92-28b3-4ccc-9376-1ed38fff7d0a?%25C3%25A5r=2026&brevtype=&m%25C3%25A5ned=&skjul_m%25C3%25A5ned=&skjul_opprettet_av=BPEN091&tab=380-oversikt"
       # - "https://media.snl.no/media/185807/standard_pride-flagg.png"
-      - "https://grafana-infoskjerm.nav.cloud.nais.io/a/nais-apm-app/services/ufore/din-uforetrygd-frontend-borger?q=ufore&environment=prod&tab=frontend"
-      - "https://grafana-infoskjerm.nav.cloud.nais.io/a/nais-apm-app/services/ufore/inntektsplanleggeren-frontend-borger?q=ufore&environment=prod&tab=frontend"
-      - "https://grafana-infoskjerm.nav.cloud.nais.io/a/nais-apm-app/services/ufore/inntektsplanleggeren-frontend-veileder?q=ufore&environment=prod&tab=frontend"
-      - "https://grafana-infoskjerm.nav.cloud.nais.io/a/nais-apm-app/namespaces/ufore?environment=prod"
-
-  # infoskjerm 2 for ledelsen - nå hos regelverk
-  ledelsen2: # regelverk!
-    fanetid: 60
-    browser: "chromium-browser"
-    vis_standardnettsider: False
-    nettsider:
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#pride"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#fun"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#ukas-oppmerksomhet-1"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#ukas-oppmerksomhet-2"
-      - "https://i.imgflip.com/acsvee.jpg"
-      - "https://i.imgflip.com/agmjoq.jpg"
-      - "https://i.imgflip.com/agwey5.jpg"
       - "https://mon.ruter.no/departures/59.912673-10.801052"
-      - "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fthe-work-is-mysterious-and-important-template-v0-qargwgtdrfi91.jpg%3Fwidth%3D2022%26format%3Dpjpg%26auto%3Dwebp%26s%3Dd5bc51c666d67d6097b3de3d315bcec5b130bdf8"
-
-  # infoskjerm ved kaffemaskinen
-  kaffemaskinen:
-    fanetid: 30
-    vis_standardnettsider: True
-    nettsider:
-      - "https://metabase.ansatt.nav.no/public/dashboard/dc1139e5-fd18-4fc6-9dce-3d11d9018425?&omrade=Seksjon+for+pensjon+og+uf%C3%B8retrygd&tab=513-b-nr-og-dokumentasjon-av-krav"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#ukas-oppmerksomhet-2"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#fun"
-      - "https://data.ansatt.nav.no/quarto/3c7de1ff-2a5b-4a0b-91f8-d2e68a60bb0d/infoskjerm-i-A6-plott.html#uføre"
-      - "https://data.ansatt.nav.no/quarto/3c7de1ff-2a5b-4a0b-91f8-d2e68a60bb0d/infoskjerm-i-A6-plott.html#alder-og-afp"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#prioriteringer"
-      - "https://mon.ruter.no/departures/59.912673-10.801052"
-
-  # infoskjerm for pensjonsbruker ved A614
-  pensjonsbruker:
-    fanetid: 30
-    browser: "firefox" # har grafana satt opp
-    vis_standardnettsider: False
-    nettsider:
-      - "https://grafana-infoskjerm.nav.cloud.nais.io/d/be1209zqgpurkd/team-pensjonsbruker?orgId=1&from=now-24h&to=now&timezone=browser&var-cluster=000000021&refresh=30s"
-      - "https://media.snl.no/media/185807/standard_pride-flagg.png"
-
-  # infoskjerm for Popp, pensjonsbrev og ekstern samhandling
-  a641:
-    fanetid: 30
-    vis_standardnettsider: True
-    nettsider:
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#prioriteringer"
-
-  # infoskjerm 1 for ledelsen - A612 / A614
-  ledelsen1:
-    fanetid: 30
-    browser: "chromium-browser" # grafana funker ikke riktig på denne RPIen
-    vis_standardnettsider: True
-    nettsider:
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#pride"
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#prioriteringer"
-
-  # pensjonskalkulator - uplassert skjerm
-  pensjonskalkulator:
-    fanetid: 30
-    vis_standardnettsider: True
-    browser: "firefox" # grafana er satt opp
-    nettsider:
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#how-to"
-      - "https://www.nrk.no/nyheter/"
-      - "https://app.eu.amplitude.com/analytics/share/fd7a2573a1a4435e90b4e5bc39c19bb4/tv"
-      - "https://grafana-infoskjerm.nav.cloud.nais.io/d/0Qx_7cA4k/pensjonskalkulator?var-interval=2m&orgId=1&from=now-1h&to=now&timezone=browser&var-datasource=000000021&var-namespace=pensjonskalkulator&refresh=5m"
-      - "https://grafana-infoskjerm.nav.cloud.nais.io/d/21xy6wD7k/pensjon-popp-opptjening?orgId=1&from=now-1h&to=now&timezone=browser&var-datasource=000000025&var-namespace=pensjonopptjening&var-app=pensjon-popp-q2&var-ingress_url=$__all"
-      - "https://grafana-infoskjerm.nav.cloud.nais.io/d/V44K451ik/samhandling-oversikt?var-interval=1d&orgId=1&from=now-7d&to=now&timezone=browser&var-cluster=000000011&var-app=$__all&var-env=default&refresh=90s"
-
-  # infoskjerm hos team regelverk
-  regelverk:
-    fanetid: 30
-    browser: "chromium-browser"
-    vis_standardnettsider: True
-    nettsider:
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#how-to"
-
-  # lokal testing på Mac
-  lokalmac:
-    fanetid: 3
-    vis_standardnettsider: True
-    browser: "chrome"
-    nettsider:
-      - "https://data.ansatt.nav.no/quarto/672bf0f0-15f4-482e-8136-5b3c6096502a/infoskjerm-i-A6.html#pride"
+      - "https://metabase.ansatt.nav.no/public/dashboard/8b80d7e8-c93a-432d-a6b7-de2163d8bc24?enhet=1+-+Landet&tab=1379-ug-og-arbeid&tidsperiode=2023-05-31~"

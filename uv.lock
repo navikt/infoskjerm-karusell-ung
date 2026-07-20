@@ -1,9 +1,9 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = ">=3.12"
 
 [[package]]
-name = "infoskjerm-karusell"
+name = "infoskjerm-karusell-ung"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

@@ -13,4 +13,4 @@ alias greset="git reset --hard origin/main"
 alias py="python3"
 
 alias editautostart="sudo nano /etc/xdg/lxsession/LXDE-pi/autostart"
-alias karusell="uv run python ~/Desktop/infoskjerm-karusell/infoskjerm_karusell.py"
+alias karusell="uv run python ~/Desktop/infoskjerm-karusell-ung/infoskjerm_karusell.py"

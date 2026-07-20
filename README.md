@@ -1,6 +1,3 @@
-Infoskjermer i A6
-
-
 ## Hva er greia?
 
 - En Raspberry Pi er koblet til en TV, og rullerer mellom ulike nettsider
@@ -12,10 +9,9 @@ Infoskjermer i A6
 Det er mulig å legge til flere nettsider i rotasjonslisten til en RPi på følgende måte:
 
 - Legg til ny url i `nettsider.yaml` i dette github-repoet
-- Restart RPi-en, så blir endringene hentet fra gtihub.com
+- Restart RPi-en, så blir endringene hentet fra github.com
 - Hver RPi har en egen id for å skille dem fra hverandre (fila `INFOSKJERM_ID`)
 - Alle åpne nettsider kan vises, samt Metabase, Grafana og datafortellinger
 
 
-Hvis du er usikker, så bare snakk med Brynjar eller Eystein, feks på Slack #team-wendenboe
-
+Hvis du er usikker, så bare snakk med Brynjar

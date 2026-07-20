@@ -1,7 +1,7 @@
 [project]
-name = "infoskjerm-karusell"
+name = "infoskjerm-karusell-ung"
 version = "0.1.0"
-description = "Applikasjon for infoskjermer i A6"
+description = "Applikasjon for infoskjermer til team Nav Ung"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
