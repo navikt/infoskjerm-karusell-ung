@@ -19,7 +19,8 @@ infoskjermer:
     browser: "chromium-browser"
     nettsider:
       # - "https://media.snl.no/media/185807/standard_pride-flagg.png"
-      - "https://mon.ruter.no/departures/59.912673-10.801052/N4Igrgzgpgwg9gGzAWwHYBkCGBPOYAuIAXPgE5hQA0IARnJqQCYTEDaojUCOUjAyvgb4AKgEtkUYgFZqAC1GNOGUaigsiwAL7VUKGlFIB5AGYARKAAchYUmuIBGAGzV8o-AklEQACS4Rj2KQg1IyiEJg0HozCpJioEBZwpPgAsnCc6qwAutRQqBFRxGQUcgpQMZgAxgDW8EhoxMaYCNDUEPhwFgAK3JVQAJLMbCAAcnwASkQCnT1VUERSAJxSTiBZ2hxcPPyCyWIS0qWKeegqdhraILrI+kZmlta26k4ubh7EIABige2i1dUdUgAcyghBCYQKvAq8USyTSGTYORAeUhjCK5CoIHknAqNTqKFQjWarRA7RmvQGQyIrFGEymHW6FKIjgADAAmAAsUjWmiRADcDBBRHBCUQ2UcoABBVDiTCuEXqJotTHYqB8NxgOXC+LokpYsq42qIAlE5US9X4TXy+IjJIAdygQNEcVNJNVFqt2ogAFFUECEGFZLqoJogA"
+      - "https://mon.ruter.no/departures/59.912673-10.801052/N4Igrgzgpgwg9gGzAWwHYBkCGBPOYAuIAXPgE5hQA0IARnJqQCYTEDaojUCOUjAyvgb4AKgEtkUYgA5qAC1GNOGUaigsiwAL7VUKGlFIB5AGYARKAAchYUmuIBGAGzV8o-AklEQACS4Rj2KQg1IyiEJg0HozCpJioEBZwpPgAsnCc6qwAutRQqBFRxGQUcgpQMZgAxgDW8EhoxMaYCNDUEPhwFgAK3JVQAJLMbCAAcnwASkQCnT1VUEQArACcC04gWdocXDz8gsliEtKlinnoKnYa2iC6yPpGZpbWtupOLm4exCAAYoHtotXVDqkADmUEIITCBV4FXiiWSaQybByIDyUMYRXIVBA8k4FRqdRQqEazVaIHaM16AyGRFYowmUw63UpREcAAYAEwAFgW600yIAbgYIKI4ESiOzjlAAIKocSYVyi9RNFpYnFQPhuMDykXxDElbFlPG1RCE4kqyUa-BahXxEZJADuUGBojiZtJast1p1EAAoqhgQgwrI9VBNEA"
+      - "https://cdn.prod.website-files.com/602250ed045ee75512d753ec/61602525750f8f15a674d2fc_4Q6BmTU4CUAw8vGzvRqYZ0xopbOOiWF8Ocg0FmPS3GgFYegwIcId3V1pPZJXwRuYWZOdLr3MB7W2EpC9ewLg5ai0z-JYJCPPs2BO6pTaHc_M_JjkxcP-RnDsZC2O0KY9byTtPBxm%3Ds0.jpeg"
       - "https://www.yr.no/nb/innhold/1-72837/table.html?mode=dark"
       - "https://moduler.yr.no/nb/kart/radar?bounds=60.111%2C11.3467%2C59.0115%2C9.8929&speed=2&play="
       - "https://metabase.ansatt.nav.no/public/dashboard/8b80d7e8-c93a-432d-a6b7-de2163d8bc24?enhet=1+-+Landet&tab=1379-ug-og-arbeid&tidsperiode=2023-05-31~"
