@@ -16,7 +16,7 @@ infoskjermer:
   ung:
     fanetid: 60
     vis_standardnettsider: False
-    browser: "chromium-browser"
+    browser: "firefox"
     nettsider:
       # - "https://media.snl.no/media/185807/standard_pride-flagg.png"
       - "https://mon.ruter.no/departures/59.912673-10.801052/N4Igrgzgpgwg9gGzAWwHYBkCGBPOYAuIAXPgE5hQA0IARnJqQCYTEDaojUCOUjAyvgb4AKgEtkUYgA5qAC1GNOGUaigsiwAL7VUKGlFIB5AGYARKAAchYUmuIBGAGzV8o-AklEQACS4Rj2KQg1IyiEJg0HozCpJioEBZwpPgAsnCc6qwAutRQqBFRxGQUcgpQMZgAxgDW8EhoxMaYCNDUEPhwFgAK3JVQAJLMbCAAcnwASkQCnT1VUEQArACcC04gWdocXDz8gsliEtKlinnoKnYa2iC6yPpGZpbWtupOLm4exCAAYoHtotXVDqkADmUEIITCBV4FXiiWSaQybByIDyUMYRXIVBA8k4FRqdRQqEazVaIHaM16AyGRFYowmUw63UpREcAAYAEwAFgW600yIAbgYIKI4ESiOzjlAAIKocSYVyi9RNFpYnFQPhuMDykXxDElbFlPG1RCE4kqyUa-BahXxEZJADuUGBojiZtJast1p1EAAoqhgQgwrI9VBNEA"
@@ -30,4 +30,4 @@ infoskjermer:
       - "https://data.ansatt.nav.no/quarto/a191ebb5-1c8d-4d42-ac01-6740c3425c86/fremskrivning.html#estimat-med-konfidensintervall"
       - "https://data.ansatt.nav.no/quarto/a191ebb5-1c8d-4d42-ac01-6740c3425c86/arbeidsgivere.html#bransjefordeling"
       - "https://data.ansatt.nav.no/quarto/a191ebb5-1c8d-4d42-ac01-6740c3425c86/arbeidsgivere.html#bedriftsstørrelse"
-      # - https://www.figma.com/proto/LYoBpK5MI6ZnyCNnApyJp8/Lagsamling-2026?node-id=701-772&viewport=-63%2C603%2C0.54&t=B0KAd6YxlitnoqYm-1&scaling=min-zoom&content-scaling=fixed&page-id=700%3A662
+      - "https://www.figma.com/proto/LYoBpK5MI6ZnyCNnApyJp8/Lagsamling-2026?node-id=946-1046&viewport=-63%2C603%2C0.54&t=B0KAd6YxlitnoqYm-1&scaling=contain&content-scaling=fixed&page-id=700%3A662"
