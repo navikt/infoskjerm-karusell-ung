@@ -1,3 +1,4 @@
+import sys
 import yaml
 import time
 import logging
@@ -23,14 +24,14 @@ try:  # last inn konfigurasjon fra YAML-fil
         yamlconfig = yamlconfig["infoskjermer"]
 except FileNotFoundError:
     logging.error("Filen nettsider.yaml ble ikke funnet. Avslutter karusellen")
-    exit(1)
+    sys.exit(1)
 
 # sjekk om infoskjerm_id finnes i YAML-fila
-if infoskjerm_id not in yamlconfig.keys():
+if infoskjerm_id not in yamlconfig:
     logging.error(
         f"Konfigurasjon '{infoskjerm_id}' finnes ikke i nettsider.yaml. Avslutter karusellen"
     )
-    exit(1)
+    sys.exit(1)
 
 # hent nettsider, fanetid, browser, vis_standardnettsider. format:
 # standard
@@ -89,7 +90,7 @@ try:
             logging.info(f"Karusellen har rullet {loop} ganger")
 except KeyboardInterrupt:
     logging.info("Karusellen ble avbrutt manuelt")
-except Exception as e:
+except Exception as e:  # noqa: BLE001
     logging.error(f"En feil oppstod {e}")
 finally:
     logging.info("Avslutter karusellen")
