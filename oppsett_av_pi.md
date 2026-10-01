@@ -7,10 +7,10 @@
 2. Kontroller skrivebordsmiljøet med `echo $XDG_CURRENT_DESKTOP`.
     - På dagens infoskjerm gir kommandoen `LXDE`. Det betyr at RPI-en bruker X11,
       som karusellen trenger fordi `pyautogui` ikke støtter Wayland.
-3. Installer `git` og `just`:
+3. Installer `git`, `just` og X11-verktøyene som holder skjermen våken:
     ```bash
     sudo apt update
-    sudo apt install git just
+    sudo apt install git just xscreensaver x11-xserver-utils
     ```
 4. Installer `uv`:
     ```bash
@@ -42,8 +42,9 @@
     just start
     ```
     Kontroller at riktige faner åpnes, at `about:sessionrestore` ikke vises,
-    og at `Ctrl+C` stopper karusellen. Ved feil finnes detaljer i
-    `karusell.log`.
+    at skjermen ikke blankes, og at `Ctrl+C` stopper karusellen. Ved feil
+    finnes detaljer i `karusell.log`. Skjermspareroppsettet kan testes separat
+    med `just disable-screen-blanking`.
 8. Skru av screen blanking med `sudo raspi-config` under "Display Options".
 9. Sett opp autostart som brukeren som skal vise infoskjermen:
     - Finn brukerens hjemmemappe med `echo $HOME`, for eksempel `/home/pi`.

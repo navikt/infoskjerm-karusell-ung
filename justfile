@@ -7,7 +7,7 @@ default:
     @just --list --unsorted
 
 # Start hele infoskjermen
-start: wait-for-network update-repo sync open-temp-pages open-pages close-temp-pages carousel
+start: disable-screen-blanking wait-for-network update-repo sync open-temp-pages open-pages close-temp-pages carousel
 
 # Start fra LXDE og behold terminalen åpen etter stopp eller feil
 autostart:
@@ -22,6 +22,17 @@ autostart:
     fi
     echo "Terminalen beholdes åpen for feilsøking."
     exec bash
+
+# Deaktiver skjermsparer, DPMS og blanking for X11-sesjonen
+disable-screen-blanking:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    if ! pgrep -x xscreensaver >/dev/null; then
+        xscreensaver -no-splash >/dev/null 2>&1 &
+    fi
+    xset s off
+    xset -dpms
+    xset s noblank
 
 # Vent til internett er tilgjengelig
 wait-for-network:

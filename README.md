@@ -20,6 +20,7 @@ Kjør `just` eller `just --list` for å se alle kommandoene.
 | Kommando | Hva den gjør |
 | --- | --- |
 | `just start` | Kjører hele oppstarten og starter fanerotasjonen |
+| `just disable-screen-blanking` | Deaktiverer skjermsparer, DPMS og blanking |
 | `just wait-for-network` | Venter til RPI-en har internett |
 | `just update-repo` | Henter siste commit med fast-forward-only |
 | `just sync` | Synkroniserer Python-miljøet mot `uv.lock` |
@@ -39,13 +40,14 @@ beholder terminalen åpen slik at feilen er synlig.
 
 `just start` utfører disse stegene i rekkefølge:
 
-1. Vent på internett.
-2. Kjør `git pull --ff-only`.
-3. Synkroniser avhengigheter fra den inncheckede låsefila.
-4. Start den dedikerte nettleserprofilen med en midlertidig NAV-side.
-5. Åpne de konfigurerte nettsidene.
-6. Lukk den midlertidige fanen.
-7. Gå i fullskjerm og roter faner til prosessen stoppes med `Ctrl+C`.
+1. Start `xscreensaver` og deaktiver X11-skjermsparer, DPMS og blanking.
+2. Vent på internett.
+3. Kjør `git pull --ff-only`.
+4. Synkroniser avhengigheter fra den inncheckede låsefila.
+5. Start den dedikerte nettleserprofilen med en midlertidig NAV-side.
+6. Åpne de konfigurerte nettsidene.
+7. Lukk den midlertidige fanen.
+8. Gå i fullskjerm og roter faner til prosessen stoppes med `Ctrl+C`.
 
 OS-oppdateringer er med vilje ikke en del av vanlig oppstart. Kjør
 `just maintenance` eksplisitt når RPI-en skal vedlikeholdes.
