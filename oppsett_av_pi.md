@@ -53,7 +53,9 @@
     Kontroller at riktige faner åpnes, at `about:sessionrestore` ikke vises,
     at skjermen ikke blankes, og at `Ctrl+C` stopper karusellen. Ved feil
     finnes detaljer i `karusell.log`. Skjermspareroppsettet kan testes separat
-    med `just disable-screen-blanking`.
+    med `just disable-screen-blanking`. Det er normalt å få beskjed om at
+    X-serveren ikke støtter DPMS; oppstarten fortsetter og de øvrige
+    skjermsparerinnstillingene brukes.
 8. Skru av screen blanking med `sudo raspi-config` under "Display Options".
 9. Sett opp autostart som brukeren som skal vise infoskjermen:
     - Finn brukerens hjemmemappe med `echo $HOME`, for eksempel `/home/pi`.

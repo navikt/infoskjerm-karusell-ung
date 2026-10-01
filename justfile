@@ -31,7 +31,11 @@ disable-screen-blanking:
         xscreensaver -no-splash >/dev/null 2>&1 &
     fi
     xset s off
-    xset -dpms
+    if xset q | grep -q "DPMS is"; then
+        xset -dpms
+    else
+        echo "X-serveren støtter ikke DPMS; fortsetter uten å deaktivere det."
+    fi
     xset s noblank
 
 # Vent til internett er tilgjengelig

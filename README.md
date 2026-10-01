@@ -20,7 +20,7 @@ Kjør `just` eller `just --list` for å se alle kommandoene.
 | Kommando | Hva den gjør |
 | --- | --- |
 | `just start` | Kjører hele oppstarten og starter fanerotasjonen |
-| `just disable-screen-blanking` | Deaktiverer skjermsparer, DPMS og blanking |
+| `just disable-screen-blanking` | Deaktiverer skjermsparer, blanking og DPMS når støttet |
 | `just wait-for-network` | Venter til RPI-en har internett |
 | `just update-repo` | Henter siste commit med fast-forward-only |
 | `just sync` | Synkroniserer Python-miljøet mot `uv.lock` |
@@ -40,7 +40,8 @@ beholder terminalen åpen slik at feilen er synlig.
 
 `just start` utfører disse stegene i rekkefølge:
 
-1. Start `xscreensaver` og deaktiver X11-skjermsparer, DPMS og blanking.
+1. Start `xscreensaver` og deaktiver X11-skjermsparer, blanking og eventuell
+   DPMS-støtte.
 2. Vent på internett.
 3. Kjør `git pull --ff-only`.
 4. Synkroniser avhengigheter fra den inncheckede låsefila.
