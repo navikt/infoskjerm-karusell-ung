@@ -29,13 +29,17 @@ infoskjermer:
 
       # Metabase Arbeidsindikatoren
       - "https://metabase.ansatt.nav.no/public/dashboard/680ef6da-b1ca-441d-834f-0e47c8a20229?enhet=Landet&enheter=Landet&m%25C3%25A5lgrupper=Ungdomsgaranti&niv%25C3%25A5=Landet&periodetype=Kvartal&region=Landet&tab=290-forside&tiltak=Tiltak+-+Oppf%C3%B8lgingstiltaket&tiltak2=Tiltak+-+Arbeid+med+st%C3%B8tte&utfall=atid3"
-      
+
+      # Metabase Arbeidsindikatoren for ungdomsprogrammet
+      - "https://metabase.ansatt.nav.no/public/dashboard/3e051ab4-3205-47c7-9e89-a82fd7f5681e?sted=Landet&tab=1480-jobb3"
+      - "https://metabase.ansatt.nav.no/public/dashboard/3e051ab4-3205-47c7-9e89-a82fd7f5681e?sted=Landet&tab=1479-spaghetti-jobb3"
+
       # Quarto WorkOp
       - "https://data.ansatt.nav.no/quarto/a191ebb5-1c8d-4d42-ac01-6740c3425c86/index.html#nøkkeltall"
       - "https://data.ansatt.nav.no/quarto/a191ebb5-1c8d-4d42-ac01-6740c3425c86/index.html#kumulativ-utvikling"
       - "https://data.ansatt.nav.no/quarto/a191ebb5-1c8d-4d42-ac01-6740c3425c86/index.html#innsatsgrupper-blant-de-som-fikk-jobb"
 
-
+      # Figma Lagsamling 2026
       - "https://www.figma.com/proto/LYoBpK5MI6ZnyCNnApyJp8/Lagsamling-2026?node-id=946-1046&viewport=-63%2C603%2C0.54&t=B0KAd6YxlitnoqYm-1&scaling=contain&content-scaling=fixed&page-id=700%3A662"
 
 
