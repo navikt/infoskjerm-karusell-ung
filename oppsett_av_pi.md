@@ -25,6 +25,15 @@
     echo ung > INFOSKJERM_ID
     just sync
     ```
+    Kopier aliasene til RPI-brukerens hjemmemappe og last dem inn:
+    ```bash
+    cp .bash_aliases ~/.bash_aliases
+    source ~/.bash_aliases
+    ```
+    Dette gjør blant annet kommandoen `karusell` tilgjengelig, slik at
+    `just start` kan kjøres fra hvilken som helst mappe. `cp` overskriver en
+    eventuell eksisterende `~/.bash_aliases`; slå sammen filene manuelt dersom
+    RPI-brukeren allerede har egne aliaser.
 6. Opprett en egen, persistent Firefox-profil:
     ```bash
     just setup-firefox

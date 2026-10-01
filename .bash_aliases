@@ -12,5 +12,4 @@ alias greset="git reset --hard origin/main"
 
 alias py="python3"
 
-alias editautostart="nano ~/.config/autostart/infoskjerm.desktop"
 alias karusell="cd ~/Desktop/infoskjerm-karusell-ung && just start"

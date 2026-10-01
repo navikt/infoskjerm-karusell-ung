@@ -56,4 +56,8 @@ Python-koden ligger i `infoskjerm/`. Konfigurasjonslesing, nettleseroppstart,
 sideåpning og fanerotasjon er skilt slik at hvert steg kan feilsøkes separat.
 Driftsloggen skrives til `karusell.log`.
 
+`.bash_aliases` kopieres til RPI-brukerens hjemmemappe under oppsettet. Aliaset
+`karusell` går til repoet og kjører `just start`, slik at karusellen kan startes
+fra hvilken som helst mappe.
+
 Hvis du er usikker, så bare snakk med Brynjar
